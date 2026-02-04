@@ -1,0 +1,13 @@
+# Node
+web/node_modules/
+web/dist/
+
+# Vite
+web/.vite/
+web/.direnv/
+
+# direnv
+.direnv/
+
+# OS
+.DS_Store

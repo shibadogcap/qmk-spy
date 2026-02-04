@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --app-bg: #020617;
+    --app-text: #f8fafc;
+    --card-bg: #0f172a;
+    --card-border: #1e293b;
+    --muted-text: #94a3b8;
+  }
+
+  body {
+    @apply bg-[var(--app-bg)] text-[var(--app-text)];
+  }
+}
+
+@layer components {
+  .app-card {
+    @apply rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] shadow-sm;
+  }
+}
